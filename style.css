@@ -1,0 +1,125 @@
+*{
+    margin:0;
+    padding: 0;
+
+}
+
+.clearfix {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+h1{
+    font-size : 40px;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    color:blue;
+    padding:50px 0;
+
+}
+
+.team{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    color:#fff;
+    
+    
+
+}
+
+.teamitem{
+
+    float: left;
+    width: 25%;
+    margin-bottom: 50px;
+
+}
+.teamitem h2{
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    color:#fff;
+
+}
+.teamitem p{
+    font-size: 18px;
+    color:#fff ;
+
+}
+.teamitem span{
+    font-size: 16px;
+    color:#fff;
+
+}
+.teamitem img{
+    width: 200px;
+    height: 200px;
+    
+}
+
+.teamitem{
+    background-color: #011627;
+    margin-right:50px;
+    border-radius: 20px;
+    padding:20px 0px;
+    transition: .4s;
+    box-shadow: 0px 0px 5px 2px black;
+}
+/* .teambox{
+    background-color: #011627;
+    padding: 20px 0;
+
+} */
+
+.teamitem:hover {
+    transform: translateY(-25px);
+    /* transform: rotate(360deg); */
+
+}
+
+
+.studentbox{
+    float: left;
+    width:33.3%;
+    margin-bottom: 50px;
+    color:black;
+    
+}
+
+.studentsdata{
+    width: 90%;
+    margin:auto;
+    text-align: center;
+    
+    
+}
+
+.studentbox img{
+    width: 200px;
+}
+
+.amrimg{
+    width: 50px;
+}
+
+.table{
+    text-align: center;
+    width: 90%;
+    margin: auto;
+}
+
+.table thead tr{
+    font-size: 25px;
+    color: blue;
+}
+.table tbody  tr:nth-child(odd){
+    background-color: rgba(137, 43, 226, 0.197);
+}
+
+.table tbody tr:hover{
+    background-color: cadetblue;
+    color:#fff;
+}
+
